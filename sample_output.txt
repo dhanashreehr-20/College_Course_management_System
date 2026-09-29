@@ -1,0 +1,188 @@
+=====================================================
+   Welcome to Reva University
+   College Course Management System
+=====================================================
+------------------- MENU -------------------
+ 1. Add Student
+ 2. Add Faculty
+ 3. Add Course to catalog
+ 4. Enroll Student in a Course
+ 5. List Students
+ 6. List Faculty
+ 7. List Course Catalog
+ 8. Search Student by name
+ 9. Demonstrate polymorphism
+10. Show total payables (fees + salaries)
+11. Show object counters (static fields)
+ 0. Exit
+----------------------------------------------
+Enter your choice: 5
+
+-- Student List --
+ID     Name               Age   Dept   Email                         
+S001   Dhanashree H R     20    BioTech dhanashreehr@reva.edu.in      
+S002   Adithi Rao         21    ECE    adithirao@reva.edu.in         
+S000   Sneha              18    BioTech sneha@reva.edu.in             
+
+------------------- MENU -------------------
+ 1. Add Student
+ 2. Add Faculty
+ 3. Add Course to catalog
+ 4. Enroll Student in a Course
+ 5. List Students
+ 6. List Faculty
+ 7. List Course Catalog
+ 8. Search Student by name
+ 9. Demonstrate polymorphism
+10. Show total payables (fees + salaries)
+11. Show object counters (static fields)
+ 0. Exit
+----------------------------------------------
+Enter your choice: 6
+
+-- Faculty List --
+ID     Name               Dept   Designation            Salary      
+F001   Dr. Meera Iyer     BioTech Professor              60000.00    
+F000   Dr. Rahul          BioTech Assistant Professor    30000.00    
+
+------------------- MENU -------------------
+ 1. Add Student
+ 2. Add Faculty
+ 3. Add Course to catalog
+ 4. Enroll Student in a Course
+ 5. List Students
+ 6. List Faculty
+ 7. List Course Catalog
+ 8. Search Student by name
+ 9. Demonstrate polymorphism
+10. Show total payables (fees + salaries)
+11. Show object counters (static fields)
+ 0. Exit
+----------------------------------------------
+Enter your choice: 7
+
+-- Course Catalog --
+1. CS101 - Bioinformatics (4 credits)
+2. CS102 - Object Oriented Programming (3 credits)
+3. CS103 - Database Systems (3 credits)
+
+------------------- MENU -------------------
+ 1. Add Student
+ 2. Add Faculty
+ 3. Add Course to catalog
+ 4. Enroll Student in a Course
+ 5. List Students
+ 6. List Faculty
+ 7. List Course Catalog
+ 8. Search Student by name
+ 9. Demonstrate polymorphism
+10. Show total payables (fees + salaries)
+11. Show object counters (static fields)
+ 0. Exit
+----------------------------------------------
+Enter your choice: 8
+Enter (part of) the student's name: Dhanashree
+Found: [S001] Dhanashree H R (Age: 20, Email: dhanashreehr@reva.edu.in) | Dept: BioTech | Courses: 2 | Fee Balance: 12060.00 | Grade: N
+
+------------------- MENU -------------------
+ 1. Add Student
+ 2. Add Faculty
+ 3. Add Course to catalog
+ 4. Enroll Student in a Course
+ 5. List Students
+ 6. List Faculty
+ 7. List Course Catalog
+ 8. Search Student by name
+ 9. Demonstrate polymorphism
+10. Show total payables (fees + salaries)
+11. Show object counters (static fields)
+ 0. Exit
+----------------------------------------------
+Enter your choice: 9
+
+-- Polymorphism demo (Person reference, dynamic binding) --
+---- Student Details ----
+[S001] Dhanashree H R (Age: 20, Email: dhanashreehr@reva.edu.in) | Dept: BioTech | Courses: 2 | Fee Balance: 12060.00 | Grade: N
+Academic standing: Not graded yet
+
+---- Student Details ----
+[S002] Adithi Rao (Age: 21, Email: adithirao@reva.edu.in) | Dept: ECE | Courses: 1 | Fee Balance: 9800.00 | Grade: N
+Academic standing: Not graded yet
+
+---- Student Details ----
+[S000] Sneha (Age: 18, Email: sneha@reva.edu.in) | Dept: BioTech | Courses: 0 | Fee Balance: 0.00 | Grade: N
+Academic standing: Not graded yet
+
+---- Faculty Details ----
+[F001] Dr. Meera Iyer (Age: 45, Email: meeraiyer@reva.edu.in) | Dept: BioTech | Designation: Professor | Basic Salary: 60000.00
+Gross Salary (with allowance): 75000.00
+
+---- Faculty Details ----
+[F000] Dr. Rahul (Age: 30, Email: rahul@reva.edu.in) | Dept: BioTech | Designation: Assistant Professor | Basic Salary: 30000.00
+Gross Salary (with allowance): 35000.00
+
+
+------------------- MENU -------------------
+ 1. Add Student
+ 2. Add Faculty
+ 3. Add Course to catalog
+ 4. Enroll Student in a Course
+ 5. List Students
+ 6. List Faculty
+ 7. List Course Catalog
+ 8. Search Student by name
+ 9. Demonstrate polymorphism
+10. Show total payables (fees + salaries)
+11. Show object counters (static fields)
+ 0. Exit
+----------------------------------------------
+Enter your choice: 10
+
+-- Payable summary (interface reference) --
+Tuition Fee          :   12060.00
+Tuition Fee          :    9800.00
+Tuition Fee          :    5000.00
+Monthly Salary       :   75000.00
+Monthly Salary       :   35000.00
+TOTAL across all Payables: 136860.00
+
+------------------- MENU -------------------
+ 1. Add Student
+ 2. Add Faculty
+ 3. Add Course to catalog
+ 4. Enroll Student in a Course
+ 5. List Students
+ 6. List Faculty
+ 7. List Course Catalog
+ 8. Search Student by name
+ 9. Demonstrate polymorphism
+10. Show total payables (fees + salaries)
+11. Show object counters (static fields)
+ 0. Exit
+----------------------------------------------
+Enter your choice: 11
+
+-- Static counters --
+Total Students created : 3
+Total Faculty created   : 2
+Total Courses created    : 3
+Total Person objects ever: 5
+
+------------------- MENU -------------------
+ 1. Add Student
+ 2. Add Faculty
+ 3. Add Course to catalog
+ 4. Enroll Student in a Course
+ 5. List Students
+ 6. List Faculty
+ 7. List Course Catalog
+ 8. Search Student by name
+ 9. Demonstrate polymorphism
+10. Show total payables (fees + salaries)
+11. Show object counters (static fields)
+ 0. Exit
+----------------------------------------------
+Enter your choice: 0
+Thank you for using the College Course Management System. Goodbye!
+
+Total menu rounds this session: 8
