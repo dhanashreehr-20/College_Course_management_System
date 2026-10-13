@@ -49,8 +49,8 @@ R24SA011_Dhanashree_HR_JavaProject/
 
 ## Traceability Matrix
 
-| Implementation Location |
-| :--- | :--- | :--- |
+| No. | Concept / Feature | Implementation Details |
+|---|---|---|
 | **A.1** | ≥3–4 Encapsulated Classes | `Person`, `Student`, `Faculty`, `Course` (private fields, public getters/setters) |
 | **A.2** | Varied Data Types & Scopes | Types: `String`, `int`, `double`, `char`, `boolean`. Constants: `CollegeConstants.BASE_FEE`, `Student.MAX_COURSES` |
 | **A.3** | Operator Precedence | Formula in `Student.calculateFee(double)` combining multiplication, division, addition, and subtraction |
