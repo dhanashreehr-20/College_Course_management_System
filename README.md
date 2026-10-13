@@ -41,8 +41,8 @@ R24SA011_Dhanashree_HR_JavaProject/
 │   │   └── CollegeService.java    (Business logic & collection management)
 │   └── com/college/app/
 │       └── Main.java              (Console driver with interactive menu)
-├── README.md                      (Feature traceability & documentation)
-└── sample_output.txt              (Captured console run)
+├── README.md                      (Feature traceability, documentation & output)
+
 ```
 
 ---
@@ -72,3 +72,13 @@ R24SA011_Dhanashree_HR_JavaProject/
 | **A.19** | `toString()` & `equals()` Overrides | Overridden across `Person`, `Student`, `Faculty`, `Course` |
 | **A.20** | `final` Method / Class | `Person.getId()` final method; `CollegeConstants` final class (both with explanatory comments) |
 | **A.21** | Multiple Custom Packages | Organized across `com.college.model`, `com.college.service`, and `com.college.app` |
+
+
+## Program Output
+
+<img width="620" height="524" alt="image-1" src="https://github.com/user-attachments/assets/a39d71ca-bcc2-4a47-9237-0cb73c05bef6" />
+<img width="612" height="467" alt="image-2" src="https://github.com/user-attachments/assets/b5818fb2-5c1a-4bda-b70e-e9c343a62396" />
+<img width="1197" height="804" alt="image-3" src="https://github.com/user-attachments/assets/9af1a6d4-c483-42f9-ad18-8654869efce0" />
+<img width="518" height="538" alt="image-4" src="https://github.com/user-attachments/assets/26eb56ae-f802-4757-b59b-c1dd086d85d3" />
+<img width="620" height="573" alt="image-5" src="https://github.com/user-attachments/assets/a1a91dc6-b4bb-42ba-82de-994aa30dc25b" />
+
